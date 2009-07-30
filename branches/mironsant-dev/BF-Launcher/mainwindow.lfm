@@ -2,13 +2,15 @@ object Form1: TForm1
   Left = 618
   Height = 245
   Top = 393
-  Width = 398
+  Width = 396
   Caption = 'Reunion BiosFear Launcher'
   ClientHeight = 245
-  ClientWidth = 398
+  ClientWidth = 396
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
   LCLVersion = '0.9.27'
   object Button1: TButton
-    Left = 152
+    Left = 16
     Height = 38
     Top = 200
     Width = 106
@@ -25,6 +27,15 @@ object Form1: TForm1
       'Place for Announcements'
     )
     TabOrder = 1
+  end
+  object configbtn: TButton
+    Left = 272
+    Height = 38
+    Top = 200
+    Width = 102
+    Caption = 'Config'
+    OnClick = configbtnClick
+    TabOrder = 2
   end
   object Aprocess: TProcess
     ApplicationName = 'Game.exe'
