@@ -1,0 +1,18 @@
+{ Das ist eine automatisch erzeugte Lazarus-Ressourcendatei }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#4#1#6'Height'#3#237#0#3'Top'#3#159#0#5'Wi'
+  +'dth'#3#144#1#7'Caption'#6'"Read/Write ServerList for Biosfear'#12'ClientHei'
+  +'ght'#3#237#0#11'ClientWidth'#3#144#1#10'LCLVersion'#6#6'0.9.27'#0#5'TMemo'#5
+  +'Memo1'#6'Height'#3#192#0#5'Width'#3#136#1#13'Lines.Strings'#1#6#12'Name ip '
+  +'port'#0#8'TabOrder'#2#0#0#0#7'TButton'#7'Button1'#4'Left'#2#8#6'Height'#2'!'
+  +#3'Top'#3#200#0#5'Width'#2'['#7'Caption'#6#4'Load'#7'OnClick'#7#12'Button1Cl'
+  +'ick'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button2'#4'Left'#3'0'#1#6'Height'#2'!'
+  +#3'Top'#3#200#0#5'Width'#2'X'#7'Caption'#6#4'Save'#7'OnClick'#7#12'Button2Cl'
+  +'ick'#8'TabOrder'#2#2#0#0#11'TOpenDialog'#10'OpenDialog'#5'Title'#6#15'Open '
+  +'ServerList'#10'DefaultExt'#6#6'.*.dta'#6'Filter'#6#23'ServerLists *.dta|*.d'
+  +'ta'#7'Options'#11#15'ofFileMustExist'#14'ofEnableSizing'#12'ofViewDetail'#0
+  +#4'left'#2#16#3'top'#2' '#0#0#11'TSaveDialog'#10'SaveDialog'#5'Title'#6#19'S'
+  +'ave New Serverlist'#10'DefaultExt'#6#4'.dta'#8'FileName'#6#14'NewSvrList.dt'
+  +'a'#6'Filter'#6#23'ServerLists *.dta|*.dta'#4'left'#2'>'#3'top'#2' '#0#0#0
+]);

@@ -1,0 +1,52 @@
+object Form1: TForm1
+  Left = 260
+  Height = 237
+  Top = 159
+  Width = 400
+  Caption = 'Read/Write ServerList for Biosfear'
+  ClientHeight = 237
+  ClientWidth = 400
+  LCLVersion = '0.9.27'
+  object Memo1: TMemo
+    Height = 192
+    Width = 392
+    Lines.Strings = (
+      'Name ip port'
+    )
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 33
+    Top = 200
+    Width = 91
+    Caption = 'Load'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 304
+    Height = 33
+    Top = 200
+    Width = 88
+    Caption = 'Save'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object OpenDialog: TOpenDialog
+    Title = 'Open ServerList'
+    DefaultExt = '.*.dta'
+    Filter = 'ServerLists *.dta|*.dta'
+    Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
+    left = 16
+    top = 32
+  end
+  object SaveDialog: TSaveDialog
+    Title = 'Save New Serverlist'
+    DefaultExt = '.dta'
+    FileName = 'NewSvrList.dta'
+    Filter = 'ServerLists *.dta|*.dta'
+    left = 62
+    top = 32
+  end
+end
