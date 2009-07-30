@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, process, Pipes;
+  StdCtrls, process, configwindow;
 
 type
 
@@ -15,8 +15,10 @@ type
   TForm1 = class(TForm)
     Button1: TButton;
     Aprocess: TProcess;
+    configbtn: TButton;
     Memo1: TMemo;
     procedure Button1Click(Sender: TObject);
+    procedure configbtnClick(Sender: TObject);
   private
 //    TOutput:TinputPipeStream;
     { private declarations }
@@ -32,11 +34,14 @@ implementation
 { TForm1 }
 
 procedure TForm1.Button1Click(Sender: TObject);
-var a:integer;
 begin
-  //Aprocess.Output.read(a,1);
   Aprocess.Active:=true;
   form1.Close;
+end;
+
+procedure TForm1.configbtnClick(Sender: TObject);
+begin
+  form2.loadprefs();
 end;
 
 initialization

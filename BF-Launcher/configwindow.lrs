@@ -1,0 +1,28 @@
+{ Das ist eine automatisch erzeugte Lazarus-Ressourcendatei }
+
+LazarusResources.Add('TForm2','FORMDATA',[
+  'TPF0'#6'TForm2'#5'Form2'#4'Left'#3#242#1#6'Height'#3#207#0#3'Top'#3'K'#1#5'W'
+  +'idth'#3#22#1#7'Caption'#6#5'Form2'#12'ClientHeight'#3#207#0#11'ClientWidth'
+  +#3#22#1#10'LCLVersion'#6#6'0.9.27'#0#9'TCheckBox'#9'Shadowchk'#4'Left'#2#8#6
+  +'Height'#2#17#3'Top'#2#16#5'Width'#2'@'#7'Caption'#6#7'Shadows'#8'TabOrder'#2
+  +#0#0#0#9'TCheckBox'#10'Weatherchk'#4'Left'#2#8#6'Height'#2#17#3'Top'#2'('#5
+  +'Width'#2'`'#7'Caption'#6#15'Weather effects'#8'TabOrder'#2#1#0#0#9'TCheckBo'
+  +'x'#13'Fullscreenchk'#4'Left'#2#8#6'Height'#2#17#3'Top'#2'@'#5'Width'#2'V'#7
+  +'Caption'#6#13'Fullscreenchk'#8'TabOrder'#2#2#0#0#9'TComboBox'#12'resolution'
+  +'cb'#4'Left'#2'x'#6'Height'#2#21#3'Top'#2'<'#5'Width'#3#153#0#10'ItemHeight'
+  +#2#13#9'ItemIndex'#2#0#13'Items.Strings'#1#6#7'640x480'#6#7'800x600'#6#8'102'
+  +'4x768'#0#8'TabOrder'#2#3#4'Text'#6#7'640x480'#0#0#9'TCheckBox'#10'd3soundch'
+  +'k'#4'Left'#2#8#6'Height'#2#17#3'Top'#2'X'#5'Width'#2'D'#7'Caption'#6#8'3D S'
+  +'ound'#8'TabOrder'#2#4#0#0#9'TCheckBox'#8'soundchk'#4'Left'#2#8#6'Height'#2
+  +#17#3'Top'#2'p'#5'Width'#2'V'#7'Caption'#6#13'Sound effects'#8'TabOrder'#2#5
+  +#0#0#9'TCheckBox'#8'musicchk'#4'Left'#2#8#6'Height'#2#17#3'Top'#3#136#0#5'Wi'
+  +'dth'#2'm'#7'Caption'#6#16'Background Music'#8'TabOrder'#2#6#0#0#9'TTrackBar'
+  +#10'soundlevel'#4'Left'#2'x'#6'Height'#2#20#3'Top'#2'p'#5'Width'#3#153#0#9'F'
+  +'requency'#2#10#3'Max'#2'd'#8'TabOrder'#2#7#0#0#9'TTrackBar'#10'musiclevel'#4
+  +'Left'#2'x'#6'Height'#2#20#3'Top'#3#136#0#5'Width'#3#153#0#9'Frequency'#2#10
+  +#3'Max'#2'd'#8'TabOrder'#2#8#0#0#7'TButton'#7'Savebtn'#4'Left'#2#8#6'Height'
+  +#2'&'#3'Top'#3#160#0#5'Width'#2'Z'#7'Caption'#6#4'Save'#7'OnClick'#7#12'Save'
+  +'btnClick'#8'TabOrder'#2#9#0#0#7'TButton'#9'cancelbtn'#4'Left'#3#168#0#6'Hei'
+  +'ght'#2'&'#3'Top'#3#160#0#5'Width'#2'`'#7'Caption'#6#6'Cancel'#7'OnClick'#7
+  +#14'cancelbtnClick'#8'TabOrder'#2#10#0#0#0
+]);
