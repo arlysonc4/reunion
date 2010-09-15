@@ -6,7 +6,7 @@ I've been getting a lot of questions about how to get the server running so i de
 
 = Set up enviroment =
 
-First off you want to install a svn client, for windows users i can recommend [TortoiseSVN http://tortoisesvn.tigris.org]
+First off you want to install a svn client, for windows users i can recommend [http://tortoisesvn.tigris.org TortoiseSVN]
 
 After you got your svn client you want to check out
 {{{
