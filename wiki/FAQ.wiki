@@ -1,4 +1,4 @@
 #summary Frequently asked questions.
-#labels FAQ
+#labels Featured
 
 = Coming soon =
