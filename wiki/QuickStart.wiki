@@ -1,4 +1,5 @@
 #summary How to get the reunion server running
+#labels Featured
 
 = Introduction =
 
