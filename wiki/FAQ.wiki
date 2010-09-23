@@ -1,3 +1,4 @@
 #summary Frequently asked questions.
+#labels FAQ
 
 = Coming soon =
