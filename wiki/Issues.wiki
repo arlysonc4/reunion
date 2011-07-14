@@ -7,10 +7,7 @@ The issue tracker is only for issues directly related to the source code of this
 For all your questions, feedback, and basic support go to <br/>
 
 [http://dev.archangel-network.com Reunion Forums]<br/>
-
 [http://groups.google.com/group/reunion-emu Reunion Discussion Group]<br/>
-
-
 
 
 [http://code.google.com/p/reunion/issues/list Proceed to the issue tracker]
